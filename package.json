@@ -1,0 +1,27 @@
+{
+  "name": "personal-tool",
+  "version": "1.0.0",
+  "description": "personal tool",
+  "main": "index.js",
+  "scripts": {
+    "commitmsg": "validate-commit-msg"
+  },
+  "devDependencies": {
+    "validate-commit-msg": "^2.12.2"
+  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liyunmei/personal-tool.git"
+  },
+  "keywords": [
+    "personal",
+    "tool",
+    "record"
+  ],
+  "author": "lym",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liyunmei/personal-tool/issues"
+  },
+  "homepage": "https://github.com/liyunmei/personal-tool#readme"
+}
