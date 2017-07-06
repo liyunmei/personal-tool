@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "description": "personal tool",
   "main": "index.js",
-  "scripts": {
-    "commitmsg": "validate-commit-msg"
-  },
+  "scripts": {},
   "devDependencies": {
+    "cz-conventional-changelog": "^2.0.0",
     "validate-commit-msg": "^2.12.2"
-  }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/liyunmei/personal-tool.git"
@@ -23,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/liyunmei/personal-tool/issues"
   },
-  "homepage": "https://github.com/liyunmei/personal-tool#readme"
+  "homepage": "https://github.com/liyunmei/personal-tool#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    },
+    "ghooks": {
+      "commit-msg": "validate-commit-msg"
+    }
+  }
 }
